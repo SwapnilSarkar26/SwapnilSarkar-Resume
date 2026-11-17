@@ -1,0 +1,110 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    background-color: hsl(210, 22%, 96%);
+    color: #333333;
+    margin: 0;
+    padding: 20px;
+}
+#resume-container {
+    max-width: 750px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 30px;
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+}
+#navbar {
+    position: sticky;
+    top: 0;
+    background-color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #eeeeee;
+}
+#navbar a {
+    display: inline-block;
+    margin: 0 8px;
+    padding: 6px 12px;
+    color: #1b365d;
+    font-size: 15px;
+    border-radius: 4px;
+}
+#navbar a:hover {
+    text-decoration: underline;
+}
+
+#header {
+    background-color: #1b365d;
+    color: #ffffff;
+    text-align: center;
+    padding: 25px;
+    border-radius: 6px;
+}
+h1 {
+    font-family: Georgia, serif;
+    font-size: 32px;
+    color: #ffffff;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+.subtitle {
+    color: #dce4f0;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.header-link {
+    color: #ffffff;
+}
+h3 {
+    font-family: Georgia, serif;
+    font-size: 20px;
+    color: #1b365d;
+    margin-bottom: 10px;
+    scroll-margin-top: 60px;
+}
+p {
+    margin: 6px 0;
+}
+a {
+    color: #0056b3;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover {
+    text-decoration: underline;
+}
+hr {
+    border: none;
+    border-top: 1px solid #dddddd;
+    margin: 20px 0;
+}
+.interests-list {
+    list-style: none;
+    padding: 0;
+}
+.interests-list li {
+    display: inline-block;
+    background-color: #e8eef5;
+    color: #1b365d;
+    padding: 6px 14px;
+    margin: 4px 6px 4px 0;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.project-box {
+    background-color: #f9fbfd;
+    border-left: 4px solid #1b365d;
+    padding: 12px 15px;
+    margin-bottom: 12px;
+    border-radius: 4px;
+}
+.project-box:hover {
+    background-color: #eef4fa;
+}
